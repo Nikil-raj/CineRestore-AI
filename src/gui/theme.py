@@ -1,0 +1,31 @@
+from PySide6.QtWidgets import QApplication
+def apply_theme(app: QApplication):
+    app.setStyleSheet("""
+        QMainWindow{
+            background:#1E1E1E;
+        }
+        QWidget{
+            background:#1E1E1E;
+            color:white;
+            font-size:11pt;
+        }
+        QPushButton{
+            background:#3A86FF;
+            color:white;
+            border:none;
+            padding:8px;
+            border-radius:6px;
+        }
+        QPushButton:hover{
+            background:#4C95FF;
+        }
+        QStatusBar{
+            background:#252526;
+        }
+        QToolBar{
+            background:#252526;
+        }
+        QMenuBar{
+            background:#252526;
+        }
+    """)
