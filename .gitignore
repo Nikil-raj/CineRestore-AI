@@ -4,36 +4,50 @@
 __pycache__/
 *.py[cod]
 *.pyo
+
 # ==========================
-# Virtual Environment
+# Virtual Environments
 # ==========================
 .venv/
+.venv_ai/
 venv/
 env/
+
 # ==========================
 # IDE
 # ==========================
 .vscode/
 .idea/
+
 # ==========================
 # Logs
 # ==========================
 *.log
+
 # ==========================
 # Build
 # ==========================
 build/
 dist/
+
 # ==========================
-# Temporary Files
+# Temporary / Generated Files
 # ==========================
 temp/
 output/
+
+# ==========================
+# AI Model Weights
+# ==========================
+models/realesrgan/weights/
+*.pth
+
 # ==========================
 # Python Cache
 # ==========================
 .pytest_cache/
 .mypy_cache/
+
 # ==========================
 # Operating System
 # ==========================
